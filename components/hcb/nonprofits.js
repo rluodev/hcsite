@@ -68,8 +68,14 @@ export default function Nonprofits() {
       >
         <Heading variant="title">Nonprofit? No problem.</Heading>
         <Text variant="lead" color="muted">
+<<<<<<< Updated upstream:components/hcb/nonprofits.js
           HCB is a powerful, safe, and easy-to-use money thing, whether you're
           receiving your first donation or spending $100,000 a year.
+=======
+          HCB is a powerful, safe, and easy-to-use financial
+          platform, whether you're receiving your first donation or spending
+          $100,000 a year.
+>>>>>>> Stashed changes:components/bank/nonprofits.js
         </Text>
       </Container>
 

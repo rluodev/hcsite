@@ -80,6 +80,14 @@ export default function Apply() {
 
   return (
     <>
+<<<<<<< Updated upstream:pages/hcb/apply/index.js
+=======
+      <script
+        async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyApxZZ8-Eh_6RgHUu8-BAOpx3xhfF2yK9U&libraries=places&mapInit=foo"
+      ></script>
+
+>>>>>>> Stashed changes:pages/bank/apply.js
       <Meta as={Head} title="Apply for HCB" />
       <ForceTheme theme="dark" />
 

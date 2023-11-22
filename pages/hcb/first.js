@@ -35,9 +35,15 @@ export default function First({ stats }) {
         as={Head}
         title="Finanical Toolkit for FIRST Teams"
         description="HCB is the ultimate financial tool for FRC, FTC, and FLL teams to receive grants, fundraise, make purchases, and so much more."
+<<<<<<< Updated upstream:pages/hcb/first.js
         image="/hcb/first/og-image.png"
       >
         <title>Financial Toolkit for FIRST Teams | HCB</title>
+=======
+        image="/bank/first/og-image.png"
+      >
+        <title>Financial Toolkit for FIRST Teams — HCB</title>
+>>>>>>> Stashed changes:pages/bank/first.js
       </Meta>
 
       <Box as="main" key="main" sx={{ mb: 6 }}>

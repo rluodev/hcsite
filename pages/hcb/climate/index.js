@@ -533,10 +533,13 @@ export default function ClimatePage({ rawOrganizations, pageRegion }) {
           'Nonprofits are making real environmental impact' +
           (region ? ` in ${region.label}` : '') +
           " with HCB's fiscal sponsorship and financial tools. Explore the climate efforts running on HCB."
+<<<<<<< Updated upstream:pages/hcb/climate/index.js
         }
         image={
           region?.ogImage ??
           'https://cloud-gv8bzwz6z-hack-club-bot.vercel.app/0frame_14__1_.png'
+=======
+>>>>>>> Stashed changes:pages/bank/climate/index.js
         }
       />
       <style>{styles}</style>
@@ -973,6 +976,7 @@ export default function ClimatePage({ rawOrganizations, pageRegion }) {
               </Flex>
               Climate-focused nonprofits on{' '}
               <span sx={{ whiteSpace: 'nowrap' }}>HCB</span>
+<<<<<<< Updated upstream:pages/hcb/climate/index.js
               {region ? (
                 <>
                   {' '}
@@ -1006,6 +1010,18 @@ export default function ClimatePage({ rawOrganizations, pageRegion }) {
               ) : (
                 ''
               )}
+=======
+              {region ? <>
+                {' '}in 
+                <span sx={{ display: ['none', 'inline'], whiteSpace: 'nowrap', bg: region.iconColor, pl: 3, pr: 18, mx: -1, borderRadius: 8, textShadow: 'none', ml: 2 }}>
+                  <img src={region.image} alt="" sx={{ mr: 3, height: [30, 42, 42, 64] }} />
+                  {region.label}
+                </span>
+                <span sx={{ display: ['inline', 'none'], whiteSpace: 'nowrap' }}>
+                  {' ' + region.label}
+                </span>
+              </> : ''}
+>>>>>>> Stashed changes:pages/bank/climate/index.js
             </Heading>
             <Box
               sx={{
@@ -1016,9 +1032,15 @@ export default function ClimatePage({ rawOrganizations, pageRegion }) {
                 mx: 'auto'
               }}
             >
+<<<<<<< Updated upstream:pages/hcb/climate/index.js
               Nonprofits are making real environmental impact with HCB's fiscal
               sponsorship and financial tools. Explore the climate efforts
               running on HCB.
+=======
+              Nonprofits are making real environmental impact with HCB's
+              fiscal sponsorship and financial tools. Explore the climate
+              efforts running on HCB.
+>>>>>>> Stashed changes:pages/bank/climate/index.js
             </Box>
             <Button
               variant="ctaLg"
@@ -1196,8 +1218,13 @@ export default function ClimatePage({ rawOrganizations, pageRegion }) {
               }}
             >
               Let your money work for change by donating to all climate-focused
+<<<<<<< Updated upstream:pages/hcb/climate/index.js
               nonprofits on HCB. Donate to 128 Collective’s curated list of
               recommended organizations.
+=======
+              nonprofits on HCB. Donate to 128 Collective’s curated
+              list of recommended organizations.
+>>>>>>> Stashed changes:pages/bank/climate/index.js
             </Box>
             <Button
               variant="ctaLg"

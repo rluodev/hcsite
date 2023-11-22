@@ -40,7 +40,11 @@
     "titleColor": "red",
     "textColor": "white",
     "title": "HCB",
+<<<<<<< Updated upstream
     "description": "No. 1 fiscal sponsor for teenagers (we crossed $10 million in transactions)",
+=======
+    "description": "No. 1 fiscal sponsor for teenagers (we crossed $8 million in transactions)",
+>>>>>>> Stashed changes
     "img": "https://emoji.slack-edge.com/T0266FRGM/bank-hackclub-dark/8c6f85f387365072.png",
     "link": "/hcb"
   },

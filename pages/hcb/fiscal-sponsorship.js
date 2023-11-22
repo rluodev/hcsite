@@ -413,7 +413,13 @@ export default function FiscalSponsorship() {
           </Section>
 
           <Section id="partner">
+<<<<<<< Updated upstream:pages/hcb/fiscal-sponsorship.js
             <Text variant="title">HCB, the #1 fiscal sponsor</Text>
+=======
+            <Text variant="title">
+              HCB, the #1 fiscal sponsor
+            </Text>
+>>>>>>> Stashed changes:pages/bank/fiscal-sponsorship.js
             <Text variant="lead">
               While many fiscal sponsors require that their partners relate to
               their mission in similar ways, at HCB, we’ve built our

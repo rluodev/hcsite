@@ -35,7 +35,11 @@ export default function Bank({ stats }) {
           as={Head}
           title="Fiscal Sponsorship"
           description="HCB is the largest fiscal sponsor of teen-led organizations in the US. Get a 501(c)(3) status-backed fund optimized for events, nonprofits, and more."
+<<<<<<< Updated upstream:pages/hcb/index.js
           image="/hcb/og-image.png"
+=======
+          image="/bank/og-image.png"
+>>>>>>> Stashed changes:pages/bank/index.js
         >
           <title>Fiscal Sponsorship — HCB</title>
         </Meta>

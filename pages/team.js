@@ -275,7 +275,11 @@ export default function Team() {
                     <Bio
                       name="Caleb Denio"
                       teamRole="Engineering"
+<<<<<<< Updated upstream
                       text="Caleb enjoys the simple things in life: making music, drinking lattes, and programming. At HCB, he engineers features."
+=======
+                      text="Caleb is a New Hampshire-born coder with a passion for music and homemade food. He enjoys building wacky, creative projects, configuring linters, and hanging out in the Hack Club community. At HCB, he writes code that makes money go 'cha-ching!'"
+>>>>>>> Stashed changes
                       img="/team/caleb.jpg"
                       pronouns="he/him"
                     />
@@ -319,7 +323,11 @@ export default function Team() {
                     <Bio
                       name="Bence Beres"
                       teamRole="Bookkeeper"
+<<<<<<< Updated upstream
                       text="Bence is a true bureaucrat who doesn’t leave any documents unturned. Having made a sharp U-turn after college to switch from his burgeoning career in the world of political science towards the thrilling and life altering adventures of the world of Accounting, Bence understands that knowing Excel is a greatly underappreciated life skill."
+=======
+                      text="Bence is responsible for keeping accurate financial books for HQ and every org on HCB (40,000+ transactions in the last year!)."
+>>>>>>> Stashed changes
                       img="/team/bence.png"
                       pronouns="he/him"
                     />
@@ -340,7 +348,11 @@ export default function Team() {
 					<Bio
                       name="Arianna Martinelli"
                       teamRole="Operations"
+<<<<<<< Updated upstream
                       text="Arianna (a current freshman at Carnegie-Mellon University and a former Hack Club leader from Kentucky) loves onboarding all our cool organizations and making HCB more accessible. When she’s not learning about how humans and computers can work together, she’s making memes and decorating the world with Hack Club stickers."
+=======
+                      text={`Arianna is a Hack Clubber from Kentucky excited about how technology and humans can work together to solve problems. She joined Hack Club in 2020 to start a club at her all-girls high school and to learn from a community of fellow coders, and she joined HCB in 2021 to fiscally sponsor her non-profit Tandem. She loves swimming, trees, videography, film photography, reading Joan Didion, Formula 1, making memes, and crafting cards with puns.`}
+>>>>>>> Stashed changes
                       img="https://cloud-oubklmp6c-hack-club-bot.vercel.app/0arianna_profile_photo.png"
                       pronouns="she/her"
                     />
@@ -463,8 +475,13 @@ export default function Team() {
               <Bio
                 name="Ella Xu"
                 teamRole="Clubs Engineering"
+<<<<<<< Updated upstream
                 text="Ella joined the Hack Club community after learning about HCB from a project running on it. Since then, she has contributed to HCB itself in addition to other Hack Club open source projects on GitHub."
                 img="https://ca.slack-edge.com/T0266FRGM-U01D6FYHLUW-edb3e93ee1fe-512"
+=======
+                text="Ella joined the Hack Club community after learning about HCB from a project running on Bank. Since then, she has contributed to Bank itself in addition to other Hack Club open source projects on GitHub."
+                img="https://scrapbook.hackclub.com/ella.png"
+>>>>>>> Stashed changes
                 pronouns="she/her"
               />
               <Bio

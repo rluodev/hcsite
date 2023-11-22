@@ -64,7 +64,7 @@ const HackathonGrant = () => {
       <Meta
         as={Head}
         title="Hackathon Grant"
-        description="Hack Club is partnering with FIRST to provide $500 grants to in-person high school hackathons happening until June 30th, 2023."
+        description="Hack Club is providing $500 grants to in-person high school hackathons happening until December 31, 2024."
         image="https://cloud-7yw9f6xnv-hack-club-bot.vercel.app/0grant.png"
       />
       <style>{styles}</style>
@@ -144,8 +144,12 @@ const HackathonGrant = () => {
                 HCB
               </Link>{' '}
               fees) to <a sx={{ whiteSpace: 'nowrap' }}>in-person</a>{' '}
+<<<<<<< Updated upstream
               <a sx={{ whiteSpace: 'nowrap' }}>high school</a> hackathons until
               December 31st, 2023.
+=======
+              <a sx={{ whiteSpace: 'nowrap' }}>high school</a> hackathons until December 31st, 2024.
+>>>>>>> Stashed changes
             </Box>
             <Button variant="ctaLg" as="a" href="#apply" sx={{ mt: 2 }}>
               {open ? 'Apply Now' : 'Coming Soon'}
@@ -335,8 +339,13 @@ const HackathonGrant = () => {
               background="https://icons.hackclub.com/api/icons/0x212025/glyph:bank-account.svg"
               size="28"
             >
+<<<<<<< Updated upstream
               You'll receive your grant through HCB, our financial platform for
               hackathons, and spend it in the open with{' '}
+=======
+              You'll receive your grant through HCB, our financial
+              platform for hackathons, and spend it in the open with{' '}
+>>>>>>> Stashed changes
               <Link
                 href="https://changelog.hcb.hackclub.com/transparent-finances-(optional-feature)-151427"
                 target="_blank"
@@ -356,8 +365,13 @@ const HackathonGrant = () => {
                   color: 'muted'
                 }}
               >
+<<<<<<< Updated upstream
                 If you're unable to use HCB, we're unfortunately unable to
                 support you through this grant program.
+=======
+                If you're unable to use HCB, we're unfortunately
+                unable to support you through this grant program.
+>>>>>>> Stashed changes
               </Text>
             </Requirement>
           </Grid>
@@ -370,13 +384,9 @@ const HackathonGrant = () => {
             }}
           >
             If you'd like to list us on your site (optional), you can use the
-            logos found on the respective brand guides for{' '}
+            logos found on the brand guide for{' '}
             <Link href="/brand" target="_blank">
               Hack Club
-            </Link>{' '}
-            and{' '}
-            <Link href="https://www.firstinspires.org/brand" target="_blank">
-              <i>FIRST®</i>
             </Link>
             .
           </Text>

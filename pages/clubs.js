@@ -520,8 +520,13 @@ const Page = () => (
             desc={
               <>
                 Use our 501(c)(3) status and a restricted fund with{' '}
+<<<<<<< Updated upstream
                 <Link href="/hcb">HCB</Link> to fundraise, accept donations, and
                 buy things!
+=======
+                <Link href="/hcb">HCB</Link> to fundraise, accept
+                donations, buy things!
+>>>>>>> Stashed changes
               </>
             }
           />
